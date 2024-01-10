@@ -1,0 +1,828 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ /* width: auto; */
+ overflow-x: hidden;
+ height: auto;
+ font-family: 'Roboto', sans-serif;
+}
+.first-section{
+    background-image: url(./pexels-islandhopper-x-14856372.jpg);
+    background-size: 100rem;
+    height: 100vh;
+    width: 100vw;
+    overflow: none;
+    /* object-fit: fill; */
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 54px;
+    padding: 2rem ;
+
+}
+.top-left{
+    display: flex;
+}
+.logo{
+    margin: 0 1rem;
+}
+.logo img{
+   
+    width: 90px;
+    height: 80px;
+    /* margin-bottom: ; */
+}
+
+.navbar ul{
+    display: flex;
+    column-gap: 54px;
+    align-items: center;
+    margin: 2rem 0;
+}
+.navbar ul a{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #696262;
+    cursor: pointer;
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   margin-bottom:1.6rem ; 
+    align-content: end;
+}
+
+.icons svg{
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+.book button{
+    width: 140px;
+    height: 50px;
+    background-color: transparent;
+    color:#FAFAFA;
+    text-transform: uppercase;
+    font-weight: 199;
+    letter-spacing: 3px;
+    background-color: #205b4f;
+    cursor: pointer;
+}
+.book button a{
+    text-decoration: none;
+}
+.hero-text{
+    width: 700px;
+    height: 600px;
+    background-color: transparent;
+    color: #696262;
+    margin: 3rlh 7rlh;
+    padding: 2rem;
+}
+.hero-text h5{
+    font-size: 20px;
+    font-weight: 50;
+    margin-bottom:10px ;
+}
+.hero-text h1{
+    padding: 60px 0;
+    font-size: 90px;
+}
+.hero-text p{
+   font-size: 15px;
+   font-weight: 700;
+}
+.hero-text button{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    width: 37%;
+    height: 50px;
+    text-transform: uppercase;
+    align-items: center;
+    background-color:#205b4f; 
+    cursor: pointer;
+    transition: 0.2ms ;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+    
+}
+.hero-text button:hover{
+    background-color: transparent;
+    color: #0f9277;
+}
+.hero-text button svg{
+    padding: 0rem 0;
+}
+.second-section{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.text-box{
+    width: 700px;
+    height: 200px;
+    background-color:transparent;
+    text-align: center;
+    align-content: center;
+    color: #696262;
+    margin: 0 auto;
+}
+.text-box h4{
+    font-size: 30px;
+    letter-spacing: 1rem;
+    margin: 1rem;
+}
+.text-box p{
+    font-size: 50px;
+    margin-top: 2rem;
+}
+.landscape{
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+}
+.landscape video{
+    width: 80%;
+    height: 60%;
+    margin: 0 9.5rem;
+    box-shadow: 1px 30px 40px rgb(216, 220, 215);
+}
+
+ .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height:200px;
+    margin:2rem 9.5rem;
+    column-gap: 3rem;
+
+    background-color:transparent;
+   
+}
+.looogo svg{    
+    font-size: 2rem;
+}
+.looogo img{
+    width: 50px;
+}
+.description h2{
+    font-size: 25px;
+    font-weight: 200;
+    color: black;
+    margin-top: 1rem;
+    font-family: 'Brygada 1918', serif;
+}
+.description h5{
+    color: #7f7c76;
+    font-size: 16px;
+    margin-top: 1rem;
+    font-weight: 199;
+    flex-wrap: wrap;
+    line-height:1.6rem;
+}
+.third-main-card{
+    background-color: transparent;
+    width: 100%;
+    height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.first-card{
+    width:  400px;
+    height: 60px;
+    margin:0 9rem ;
+}
+.ffff-card{
+    width: 500px;
+    height: 700px;
+    background-color:transparent;
+}
+.btns{
+    display: flex;
+    align-items: center;
+
+    flex-direction: row;
+}
+.first-card button{
+    width: 170px;
+    height:50px;
+    column-gap: 1rem;
+    padding: .5rem;
+    margin-top: 2rem;
+    background-color:#205b4f; 
+    outline: none;
+    font-size: 19px;
+    border:black 0.5px solid;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+
+.first-card button a{
+    list-style: none;
+    text-decoration: none;
+    
+    color: white;
+}
+.first-card button svg{
+    align-items: center;
+    
+}
+
+.first-card h2{
+    margin-top: 6rem;
+    font-size: 49px;
+    word-spacing: .3rem;
+    font-weight: 400;
+    font-family: 'Brygada 1918', serif;
+    color: #696262;
+
+}
+.first-card p{
+    margin-top: 3rem;
+    font-size: 17px;
+    line-height:1.6rem;
+    font-weight: 199;
+    
+}
+
+.middle-card img{
+    width: 400px;
+    height: 580px;
+    position: absolute;
+    bottom: 5rem;
+    right: 30rem;
+    border-radius: 7%;
+    
+
+}
+.third-card{
+    background-color:#f2f0ed ;
+    
+    width: 700px;
+    /* height: 800px; */
+    border-radius: 15% 0 0 15%;
+}
+.layer {
+    margin: 7.5rem 2rem;
+    position: relative;
+    left: 250px;
+    width: 300px;
+    height: 100px;
+}
+.layer h4{
+    margin-top: 2rem;
+}
+.layer h3{
+    margin-top: 1rem;
+    font-size: 29px;
+    color:  #7f7c76;
+}
+.layer p{
+    margin-top: 1rem;
+    line-height:1.6rem;
+    font-weight: 199;
+    
+}
+.four-section{
+    width: 900px;
+    height: 400px;
+    margin: 7rem auto;
+}
+.four{
+    width: 100%;
+    height: 100%;
+    /* background-color: #7f7c76; */
+ 
+}
+.four h5{
+    font-size: 15px;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 100;
+    text-align: center;
+    line-height: 2rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    color: #53a292;
+   
+    letter-spacing: 0.2rem;
+}
+.four h1{
+    font-size: 70px;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 100;
+    color:#504545;
+}
+.four h2{
+    text-align: center;
+    font-family: 'Brygada 1918', serif;
+    font-size: 70px;
+    font-weight: 100;
+    color:   #504545;
+    
+
+}
+.four h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 199;
+    text-align: center;
+    line-height: 3rem;
+    margin: 0.9rem 0;
+    color: #53a292;
+
+
+}
+.four button {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.6rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    margin: 2rem auto;
+    background-color:#205b4f; 
+    box-shadow: 1px 1px 2px rgb(139, 143, 139);
+    cursor: pointer;
+    
+}
+.four button:hover{
+    background-color: white;
+    border: 1px solid  #453e3e;
+    color: #453e3e;
+    transition:all 3ms ease;
+    text-decoration: none;
+    
+}
+.four a button{
+    color: white;
+    font-size: 13px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    
+}
+.four a{
+    text-decoration: none;
+}
+
+
+
+
+.text-card{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.background-image img{
+    width: 100rem;
+    height: 40rem;
+    position: relative;
+    align-items: center;
+    color: white;
+} 
+
+.text-card{
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    color: black;
+   
+}
+.texxt-card {
+    /* align-items: center; */
+    margin:5rem auto;
+    text-align: center;
+}
+.texxt-card h5{
+    font-size: 17x;
+    line-height: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: whitesmoke;
+    letter-spacing:.2rem ;
+
+}
+.texxt-card h3{
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Brygada 1918', serif;
+    margin-top: 2rem;
+
+}
+.texxt-card h6{
+    font-size: 18px;
+    font-weight: 199;
+    line-height: 4rem;
+    color: whitesmoke;
+}
+.texxt-card h4{
+    font-size: 18px;
+    font-weight: 199;
+    color: whitesmoke;
+}
+.tables{
+    width: 200px;
+    height: 100px;
+    /* text-align: left; */
+}
+.tables h6{
+    color: white;
+    font-size: 16px;
+    font-family: 'Brygada 1918', serif;
+    letter-spacing: .1rem;
+    margin-right: 8rem;
+}
+.tables h3{
+    font-family: 'Brygada 1918', serif;
+    font-size: 30px;
+    font-weight: 199;
+    color: white;
+    line-height: 5rem;
+}
+.tables p{
+    /* margin-left: 8rem; */
+    line-height: 2rem;
+    text-align: left;
+}
+.six-section{
+    width: 110%;
+    height: 470px;
+    background-color: rgb(240, 239, 240);
+    margin: 0rem auto;
+    
+}
+.six-card{
+    text-align: center;
+
+}
+.six-card p{
+    font-size: 25px;
+    font-family: 'Inter', sans-serif; 
+    padding-top: 6rem ;
+    font-weight: 599;
+    color:#504545;
+}
+.six-card img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 1rem 9rem;
+}
+
+.six-card span{
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 17px;
+    color: #453e3e;
+    letter-spacing: .2rem;
+}
+.six-card h6{
+    font-family: 'Roboto', sans-serif;
+    color: #53a292; 
+    font-weight: 199;
+    font-size: 15px;
+    
+}
+.seventh-section{
+    width: 100%;
+    height: 100%;
+}
+.seventh-card{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    
+}
+.seventh-left{
+    margin:3rem 10rem ;
+
+    width: 40%;
+    height: 50%;
+
+}
+.seventh-left h5{
+    /* padding-top: 4rem; */
+    font-size: 14px;
+    font-weight: 299;
+    letter-spacing: .2rem;
+    color: #53a292;
+    text-transform: uppercase;
+    /* line-height: 3rem; */
+
+}
+.seventh-left h3{
+    font-size: 50px;
+    font-weight: 499;
+    color: #504545;
+    font-family: 'Brygada 1918', serif;
+    line-height: 6rem;
+    
+}
+.seventh-left p{
+    font-weight: 199;
+    font-family: 'Roboto', sans-serif;
+    color: #453e3e;
+    line-height: 2rem;
+}
+.divvv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -2rem;
+}
+.div-card{
+    margin: .5rem 0;
+}
+.seventh-info{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    /* line-height: 15rem; */
+    padding: 4rem 0;
+    align-items: center;
+}
+.seventh-info svg path{
+    align-items: center;
+    margin-top: -.5rem;
+    fill: rgb(197, 184, 197);
+}
+.svgg path{
+    fill: rgb(197, 184, 197);
+}
+
+.seventh-info h6{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 199;
+    font-family: 'Brygada 1918', serif;
+    color:#504545 ;
+    letter-spacing: .1rem;
+}
+.seventh-location{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+.seventh-location h3{
+    font-size: 17px;
+    font-weight: 199;
+    color: #53a292;
+    
+    margin-top: -5rem;
+    padding-left: 1.7rem;
+    
+    /* display: flex; */
+    /* line-height: -3rem; */
+}
+.seventh-cont-hours{
+    display: flex;
+    /* align-items: center; */
+    column-gap: 2.7rem;
+    margin-top: 2.6rem;
+}
+#top{
+    display: flex;
+    flex-direction: column;
+}
+
+.seventh-hours{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    column-gap: 1rem; 
+}
+
+.seventh-hours h4{  
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 199;
+    font-family: 'Brygada 1918', serif;
+    color:#504545 ;
+    letter-spacing: .1rem;
+}
+
+.bordered{
+    border-right: 1px solid #d1d1d1;
+    padding-right: 2.4rem;
+}
+
+.ruler{
+    width: 520px;
+    color:  #d1d1d1;
+}
+
+.seventh-right{
+    margin:4rem -5rem;    
+    width: 40%;
+    height: 50%;
+}
+.line{
+    width: 60px;
+    margin: .5rem 0;
+}
+form{
+    margin: 4rem 0;
+}
+#name{
+    font-size: 20px;
+    font-weight: 399;
+    color: #7f7c76;
+    
+}
+input{
+    width: 500px;
+    height:50px;
+    background-color: #FAFAFA;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+
+.save-btn{
+    padding: 15px 60px;
+    background-color:#205b4f; 
+    color: white;
+    font-size: 13px;
+    font-weight: 599;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+footer{
+    background-color: #205b4f;
+    /* width: ; */
+}
+.eight-card{
+    display: flex;
+    padding: 6rem 4rem;
+    flex-direction: row;
+    column-gap: 7rem;
+    align-items: center;
+}
+.heeading h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 199;
+    font-family: 'Brygada 1918', serif;
+}
+.two{
+    /* width: 500px; */
+    height: 200px;
+    /* background-color: blue; */
+}
+.services{
+    margin: 2rem 0;
+    font-size: 17px;
+    font-weight: 199;
+    color: #d9e8e5;
+    font-family: 'Roboto', sans-serif;    
+}
+
+
+/* Main Container Css */
+.main_container{
+    background-image: url(./lotus.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 40px 0px 40px;
+}
+
+/* top container */
+.top_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    text-align: center;
+}
+.top_container .f1st_head h1{
+    font-family: 'Brygada 1918', serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+.top_container .s1st_head h1{
+    font-family: 'Brygada 1918', serif;
+    font-size: 3rem;
+    line-height: 1.2em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    
+}
+.top_container .s1st_head p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #f6f5f4;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    
+}
+/*end* top container *end*/
+
+/*start* bottom container *start*/
+.bottom_container{
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+}
+.cardd{
+    border: .01px solid #b0b0b0a3;
+    display: flex;
+    flex-direction: column;
+    row-gap: .6rem;
+    padding: 3.2rem 3.5rem;
+    color: #FFFFFF;            
+}
+
+.cardd .card_number{
+    margin-bottom: 1.7rem;
+    font-family: 'Brygada 1918', serif;
+}
+.cardd .card_title{
+    font-family: 'Brygada 1918', serif;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+.cardd .card_description{
+    margin-bottom: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+}
+.cardd .card_button{
+    display: flex;
+    align-items: center;
+    column-gap: 0.6rem;
+    cursor: pointer;
+    color: #e1e1e1c5;
+    margin-top: 1rem;
+    transition: ease-in 290ms;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+    fill: #e1e1e1c5;
+}
+
+.cardd .card_button svg{
+    width: 1rem;
+    
+}
+
+.cardd .card_button:hover{
+    color: #FFFFFF;
+    fill: #FFFFFF;
+}
+
+/*end* bottom container *end*/
+
+/* The Grid */
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* The Grid */
+
+/* Media Query */
+@media only screen and (max-width: 414px){
+    .main_container{
+    padding: 50px 40px 0px 40px;
+}
+}
+
+/* .hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+} */
